@@ -312,12 +312,6 @@ $videos = [
         'scope' => 'public'
     ],
     [
-        'title' => "Satellite Internet Can Be a Firefighter's Lifeline.",
-        'videoID' => "cFK5dRx106Y",
-        'category' => "short",
-        'scope' => 'public'
-    ],
-    [
         'title' => "Embark with us on a quest for universal high-speed internet!",
         'videoID' => "y2ncOrgj1Gk",
         'category' => "short",
@@ -380,12 +374,6 @@ $videos = [
     [
         'title' => "No matter where you are, we want you to be connected to the internet",
         'videoID' => "h4RjuM569a0",
-        'category' => "short",
-        'scope' => 'public'
-    ],
-    [
-        'title' => "Millions of people around the world can benefit from satellite internet in so many ways.",
-        'videoID' => "kBTopXtLFKA",
         'category' => "short",
         'scope' => 'public'
     ],
