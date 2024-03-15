@@ -16,7 +16,9 @@ include('../header.php'); ?>
             </h1>
         </div>
         <div class="satellite-img">
-            <img src="../assets/img/FTC-Satellite.png" alt="satellite">
+            <a href="https://www.youtube.com/watch?v=11gmBXrJoPM" class="popup-youtube">
+                <img src="../assets/img/FTC-Satellite.png" alt="satellite">
+            </a>
         </div>
     </div>
 </section>
