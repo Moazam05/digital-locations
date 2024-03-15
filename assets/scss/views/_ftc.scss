@@ -79,7 +79,7 @@
   padding: 100px 0;
   background-color: #fff;
 
-  h2 {
+  h3 {
     font-size: 36px;
     font-family: sans-serif;
     font-weight: normal;
@@ -118,8 +118,35 @@
   }
 
   .dead-zones {
-    padding: 55px;
+    padding: 40px;
     background-color: #efeffe;
     border-radius: 60px;
+    margin: 0 120px;
+
+    h3 {
+      font-size: 36px;
+      font-family: sans-serif;
+      font-weight: normal;
+      color: #000;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: sans-serif;
+      font-weight: normal;
+      color: #000;
+      font-size: 22px;
+      margin-top: 20px;
+    }
+  }
+
+  .reason-rig {
+    height: 250px;
+    width: 100%;
+    padding-left: 60px;
+    img {
+      border-radius: 30px;
+      height: 100%;
+      width: 100%;
+    }
   }
 }

@@ -59,9 +59,9 @@ include('../header.php'); ?>
                 </div>
             </div>
             <div class="col-md-6">
-                <h2>
+                <h3>
                     <span>The FCC proposal</span> is intended to ensure continued U.S. leadership and establish a clear and predictable regulatory approach to support innovation and competition.
-                </h2>
+                </h3>
 
                 <p>This is exciting news for DigitalLocations as it shows the viability for a direct to device solution. We are working with a world-class tech team at Florida International University on the development of Satenna.</p>
 
@@ -78,11 +78,18 @@ include('../header.php'); ?>
             <div class="row">
                 <div class="col-md-6">
 
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam explicabo consequuntur eos, veritatis saepe qui amet praesentium optio quis placeat eius, culpa at et adipisci ea. Dicta cumque deserunt itaque.</div>
-                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis ea rem necessitatibus nesciunt aliquam laboriosam nobis ducimus a impedit ad illum, eius nisi asperiores? Praesentium ab eligendi atque odio.</div>
+                    <h3>
+                        Imagine a <span>world of no dead zones</span> and always on high speed Internet. 
+                    </h3>
+                    <p>We are working towards a solution that removes the need for a wireless cell signal from a traditional cell towel.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="reason-rig">
+                        <img src="../assets/img/reason2.jpg" alt="reason">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 
