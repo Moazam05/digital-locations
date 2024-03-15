@@ -48,6 +48,13 @@ include('../header.php'); ?>
 </section>
 
 <!-- 3rd Section -->
+<section class="Parallax-sec">
+    <div class="details">
+        <h4>
+            This <span>breakthrough technology</span> will change the <br> world of broadband as we know it. 
+        </h4>
+    </div>
+</section>
 
 <!-- 4th Section -->
 <section class="fcc-proposal">
