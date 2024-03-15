@@ -75,30 +75,35 @@
 }
 
 // 3rd Section
-.Parallax-sec {
-  background-image: url("../../assets/img/Designer2.png");
-  background-size: cover;
+.parallax {
+  background-image: url("../../assets/img/Designer.png");
+  min-height: 400px;
+
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 
-  .details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h4 {
-    font-size: 36px;
-    font-family: sans-serif;
-    font-weight: normal;
-    color: #fff;
-    margin: 150px 0;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    span {
-      font-weight: normal;
-      font-size: 45px;
-    }
-  }
+.parallax-content {
+  text-align: center;
+  color: white;
+}
+
+.parallax-content h4 {
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.parallax-content h4 span {
+  font-size: 40px;
 }
 
 // 4th Section
