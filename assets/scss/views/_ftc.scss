@@ -3,7 +3,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 105vh;
+  margin: 0 0 40px 0;
 
   .heading {
     display: flex;
@@ -12,7 +13,7 @@
     h1 {
       font-size: 55px;
       font-weight: normal;
-      margin: 50px 0;
+      margin: 75px 0 50px 0;
       text-align: center;
       font-family: sans-serif;
 
@@ -26,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px 0 0;
     img {
       height: 360px;
     }
