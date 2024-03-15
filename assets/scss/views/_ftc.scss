@@ -1,3 +1,4 @@
+// 1st Section
 .hero-section {
   background-image: url("../../assets/img/FTC-Background.png");
   background-size: cover;
@@ -70,5 +71,55 @@
     img {
       height: 100%;
     }
+  }
+}
+
+// 4th Section
+.fcc-proposal {
+  padding: 100px 0;
+  background-color: #fff;
+
+  h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #000;
+
+    span {
+      font-weight: 700;
+      font-size: 36px;
+    }
+  }
+
+  p {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #000;
+    font-size: 25px;
+    margin-top: 20px;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .fcc-proposal-img {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .satenna {
+    margin: 50px 0;
+  }
+
+  .dead-zones {
+    padding: 55px;
+    background-color: #efeffe;
+    border-radius: 60px;
   }
 }

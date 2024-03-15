@@ -4,6 +4,7 @@ $GLOBALS['desc'] = "";
 $GLOBALS['keywords'] = "";
 include('../header.php'); ?>
 
+<!-- 1st Section -->
 <section class="hero-section">
     <div class="container">
         <div class="heading">
@@ -20,6 +21,7 @@ include('../header.php'); ?>
     </div>
 </section>
 
+<!-- 2nd Section -->
 <section class="upcoming-vote">
     <div class="container">
         <div class="row">
@@ -36,13 +38,50 @@ include('../header.php'); ?>
             </div>
             <div class="col-md-6">
                 <div class="global-market">
-
                     <img src="../assets/img/global_market.png" alt="global">
                 </div>
             </div>
         </div>
 
 
+    </div>
+</section>
+
+<!-- 3rd Section -->
+
+<!-- 4th Section -->
+<section class="fcc-proposal">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fcc-proposal-img">
+                    <img src="../assets/img/fcc-proposal.png" alt="proposal">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>
+                    <span>The FCC proposal</span> is intended to ensure continued U.S. leadership and establish a clear and predictable regulatory approach to support innovation and competition.
+                </h2>
+
+                <p>This is exciting news for DigitalLocations as it shows the viability for a direct to device solution. We are working with a world-class tech team at Florida International University on the development of Satenna.</p>
+
+                <p>We believe that no matter which path the current regulation takes, Satenna will be a valuable technology.  </p>
+
+                <div class="satenna">
+
+                    <img src="../assets/img/satenna.png" alt="satenna">
+                </div>
+
+            </div>
+        </div>
+        <div class="dead-zones">
+            <div class="row">
+                <div class="col-md-6">
+
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam explicabo consequuntur eos, veritatis saepe qui amet praesentium optio quis placeat eius, culpa at et adipisci ea. Dicta cumque deserunt itaque.</div>
+                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis ea rem necessitatibus nesciunt aliquam laboriosam nobis ducimus a impedit ad illum, eius nisi asperiores? Praesentium ab eligendi atque odio.</div>
+            </div>
+        </div>
     </div>
 </section>
 
