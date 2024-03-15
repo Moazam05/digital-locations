@@ -208,3 +208,97 @@
     }
   }
 }
+
+// Responsive
+@media (max-width: 768px) {
+  .hero-section {
+    height: unset;
+
+    .heading h1 {
+      font-size: 35px;
+      margin: 25px 0 0 0;
+    }
+
+    .satellite-img img {
+      height: unset;
+    }
+  }
+
+  .upcoming-vote {
+    padding: 45px 0;
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 20px;
+      margin-top: 15px;
+    }
+
+    .global-market {
+      height: unset;
+      padding: 25px 0 0;
+    }
+  }
+
+  .parallax-content h4 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  .fcc-proposal {
+    padding: 45px 0;
+
+    h3 {
+      font-size: 30px;
+      margin: 25px 0;
+    }
+    p {
+      font-size: 20px;
+      margin-top: 15px;
+    }
+
+    .fcc-proposal-img {
+      height: unset;
+    }
+
+    .dead-zones {
+      padding: 20px;
+      border-radius: 20px;
+      margin: 0;
+      h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
+      p {
+        font-size: 20px;
+        margin-top: 15px;
+      }
+    }
+
+    .reason-rig {
+      padding-left: 0;
+      margin: 20px 0 10px 0;
+    }
+
+    .work-indeed {
+      margin: 25px 0 0;
+      p {
+        font-size: 20px;
+        margin-top: 0px !important;
+      }
+      a {
+        margin-top: 25px;
+      }
+    }
+
+    .satenna {
+      margin: 25px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
