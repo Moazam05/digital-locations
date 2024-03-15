@@ -33,3 +33,42 @@
     }
   }
 }
+
+// 2nd Section
+.upcoming-vote {
+  background-color: #efeffe;
+  padding: 100px 0;
+
+  h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #000;
+
+    span {
+      font-weight: 700;
+      font-size: 34px;
+    }
+  }
+
+  p {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #000;
+    font-size: 25px;
+    margin-top: 50px;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .global-market {
+    padding: 0 30px;
+    height: 500px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
