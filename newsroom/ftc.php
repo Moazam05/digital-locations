@@ -90,6 +90,15 @@ include('../header.php'); ?>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="work-indeed">
+                    <p>It is exciting work indeed.</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
 </section>
 
 

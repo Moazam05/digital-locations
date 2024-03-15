@@ -149,4 +149,30 @@
       width: 100%;
     }
   }
+
+  .work-indeed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0 0;
+    flex-direction: column;
+
+    p {
+      font-family: sans-serif;
+      font-weight: normal;
+      color: #000;
+      font-size: 25px;
+      margin-top: 0px !important;
+      text-align: center;
+    }
+    a {
+      background-color: #ff4800;
+      color: #fff;
+      padding: 15px 45px;
+      border-radius: 30px;
+      font-size: 18px;
+      text-decoration: none;
+      margin-top: 50px;
+    }
+  }
 }
