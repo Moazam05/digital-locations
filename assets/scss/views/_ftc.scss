@@ -1,0 +1,33 @@
+.hero-section {
+  background-image: url("../../assets/img/FTC-Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 55px;
+      font-weight: normal;
+      margin: 50px 0;
+      text-align: center;
+      font-family: sans-serif;
+
+      span {
+        color: #ff6629;
+      }
+    }
+  }
+
+  .satellite-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 360px;
+    }
+  }
+}
