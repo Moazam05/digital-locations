@@ -64,10 +64,15 @@ include('../header.php'); ?>
 </section>
 
 <!-- 3rd Section -->
-<div class="parallax">
-    <div class="parallax-content">
+<div class="parallax-out">
+    <div class="parallax">
+        <div class="parallax-content">
 
-        <h4>This <span>breakthrough technology</span> will change the <br> world of broadband as we know it. </h4>
+            <h4 class="hide-m">This <span>breakthrough technology</span> will change the <br> world of broadband as we know it. </h4>
+
+            <h4 class="hide-d">This <span>breakthrough technology</span> will change the world of broadband as we <br> know it.</h4>
+
+        </div>
     </div>
 </div>
 

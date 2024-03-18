@@ -68,14 +68,17 @@
 }
 
 // 3rd Section
+.parallax-out {
+  background: #fff;
+}
 .parallax {
-  background-image: url("../../assets/img/Designer2.png");
+  background-image: url("../../assets/img/Designer.png");
   min-height: 400px;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
   display: flex;
   justify-content: center;
@@ -211,6 +214,10 @@
   display: none;
 }
 
+.hide-d {
+  display: none;
+}
+
 // Responsive
 @media (max-width: 1536px) {
   .upcoming-vote {
@@ -316,16 +323,28 @@
       color: #000;
       line-height: 130%;
     }
+  }
 
-    .global-market {
-      height: unset;
-      padding: 25px 0 0;
-    }
+  // 3rd mobile
+  .parallax {
+    background-image: url("../../assets/img/designer_mobile.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 350px;
   }
 
   .parallax-content h4 {
-    font-size: 25px;
-    margin-bottom: 0px;
+    font-size: 28px;
+    padding: 0 20px;
+  }
+  .hide-m {
+    display: none !important;
+  }
+
+  .hide-d {
+    display: block !important;
   }
 
   .fcc-proposal {
