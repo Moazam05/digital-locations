@@ -140,17 +140,21 @@
   }
 
   .dead-zones {
-    padding: 40px;
+    padding: 58px;
     background-color: #efeffe;
     border-radius: 60px;
-    margin: 125px 125px 90px;
+    margin: 125px 95px 90px;
 
     h3 {
-      font-size: 36px;
+      font-size: 34px;
       font-family: Inter;
-      font-weight: 400;
       color: #000;
       margin-bottom: 20px;
+      line-height: 120%;
+      span {
+        font-weight: 600;
+        font-size: 34px;
+      }
     }
     p {
       font-family: Inter;
