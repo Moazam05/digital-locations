@@ -200,6 +200,41 @@
 }
 
 // Responsive
+@media (max-width: 1536px) {
+  .upcoming-vote {
+    h2 {
+      font-size: 32px;
+      span {
+        font-size: 32px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 40px;
+    }
+  }
+
+  .fcc-proposal {
+    h3 {
+      font-size: 32px;
+      span {
+        font-size: 32px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 40px;
+    }
+
+    // .dead-zones {
+    // }
+  }
+}
+
 @media (max-width: 768px) {
   .hero-section {
     height: unset;
