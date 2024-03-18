@@ -279,7 +279,7 @@
 
   .res-img {
     img {
-      border-radius: 20px;
+      border-radius: 12px;
       height: 100%;
       width: 100%;
       margin-bottom: 20px;
@@ -293,7 +293,7 @@
     }
 
     .satellite-img {
-      padding-bottom: 50px;
+      padding-bottom: 40px;
     }
   }
 
@@ -312,7 +312,7 @@
     }
     img {
       width: 100%;
-      margin: 10px 0;
+      margin: 30px 0 10px 0;
     }
 
     p {
@@ -355,8 +355,8 @@
     }
 
     .dead-zones {
-      padding: 15px;
-      border-radius: 20px;
+      padding: 15px 15px 25px;
+      border-radius: 18px;
       margin: 0;
       h3 {
         font-size: 30px;
@@ -377,17 +377,20 @@
 
     .work-indeed {
       margin: 25px 0 0;
+      width: 100%;
+      text-align: center;
       p {
-        font-size: 20px;
-        margin-top: 0px !important;
+        font-size: 26px;
+        margin: 10px 0 10px 0 !important;
       }
       a {
-        margin-top: 25px;
+        margin: 25px 0 15px 0;
+        width: 100%;
       }
     }
 
     .satenna {
-      margin: 25px 0;
+      margin: 25px 0 45px 0;
     }
   }
 }
