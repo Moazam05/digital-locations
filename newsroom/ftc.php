@@ -31,7 +31,7 @@ include('../header.php'); ?>
                 <h2>
                     With an upcoming vote, the FCC will begin to lay the groundwork for <span>needed rules and regulations</span> for the growing satellite Internet business.
                 </h2>
-                <p>The FCC wants to establish clear and transparent processes to support supplemental Internet coverage from space. </p>
+                <p class="first-fcc">The FCC wants to establish clear and transparent processes to support supplemental Internet coverage from space. </p>
 
                 <p>Connecting consumers to essential wireless services where traditional terrestrial mobile service is not available can be lifesaving in remote locations and can open up innovative opportunities for consumers and businesses, according to the FCC.  </p>
 
