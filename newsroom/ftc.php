@@ -8,13 +8,13 @@ include('../header.php'); ?>
 <section class="hero-section">
     <div class="container">
         <div class="heading">
-            <h1 class="desktop-head">The Federal Communications Commission
+            <h1 class="desktop-show">The Federal Communications Commission
                 <br>
                 <span>has its eyes set</span> on space and satellite
                 <br>
                 communications.
             </h1>
-            <h1 class="mobile-head">
+            <h1 class="mobile-show">
                 The Federal Communications Commission
                 <span>has <br> its eyes set</span> on space and satellite
                 communications.
@@ -33,13 +33,13 @@ include('../header.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2 class="upcoming-head">
+                <h2 class="desktop-show">
                     With an upcoming vote, the FCC will begin to lay the groundwork for <span>needed rules and regulations</span> for the growing satellite Internet business.
                 </h2>
-                <div class="mobile-upcoming">
+                <div class="mobile-show">
                     <h2> With an upcoming <br> vote, the FCC will begin <br> to lay the groundwork <br> for <span>needed rules and regulations</span> for the <br>growing satellite Internet business.</h2>
 
-                    <img src="../assets/img/global_market_mobile.png" alt="global">
+                    <img src="../assets/img/global_market_mobile.png" alt="global" class="mobile-show">
 
                 </div>
 
@@ -53,7 +53,7 @@ include('../header.php'); ?>
             <div class="col-md-6">
                 <div class="upcoming-head">
                     <div class="global-market">
-                        <img src="../assets/img/global_market.png" alt="global">
+                        <img src="../assets/img/global_market.png" alt="global" class="desktop-show">
                     </div>
                 </div>
             </div>
@@ -68,9 +68,9 @@ include('../header.php'); ?>
     <div class="parallax">
         <div class="parallax-content">
 
-            <h4 class="hide-m">This <span>breakthrough technology</span> will change the <br> world of broadband as we know it. </h4>
+            <h4 class="desktop-show">This <span>breakthrough technology</span> will change the <br> world of broadband as we know it. </h4>
 
-            <h4 class="hide-d">This <span>breakthrough technology</span> will change the world of broadband as we <br> know it.</h4>
+            <h4 class="mobile-show">This <span>breakthrough technology</span> will change the world of broadband as we <br> know it.</h4>
 
         </div>
     </div>
@@ -82,13 +82,15 @@ include('../header.php'); ?>
         <div class="row">
             <div class="col-md-6">
                 <div class="fcc-proposal-img">
-                    <img src="../assets/img/fcc-proposal.png" alt="proposal">
+                    <img src="../assets/img/fcc-proposal.png" alt="proposal" class="desktop-show">
                 </div>
             </div>
             <div class="col-md-6">
                 <h3>
                     <span>The FCC proposal</span> is intended to ensure continued U.S. leadership and establish a clear and predictable regulatory approach to support innovation and competition.
                 </h3>
+
+                <img src="../assets/img/fcc-proposal-mobile.png" alt="proposal" class="mobile-show">
 
                 <p class="excite-new">This is exciting news for <span>DigitalLocations</span> as it shows the viability for a direct to device solution. We are working with a world-class tech team at Florida International University on the development of <span>Satenna</span>.</p>
 
@@ -104,7 +106,7 @@ include('../header.php'); ?>
         <div class="dead-zones">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="reason-m-rig">
+                    <div class="mobile-show res-img">
 
                         <img src="../assets/img/reason2.jpg" alt="reason">
                     </div>
@@ -113,11 +115,17 @@ include('../header.php'); ?>
                     <h3>
                         Imagine a <span>world of no dead zones</span> and always on high speed Internet. 
                     </h3>
-                    <p>We are working towards a solution that removes the need for a wireless cell signal from a traditional cell towel.</p>
+                    <p class="desktop-show">We are working towards a solution that removes the need for a wireless cell signal from a traditional cell towel.</p>
+
+                    <p class="mobile-show">This is exciting news for <span>DigitalLocations</span> as it shows the viability for a direct to device solution. We are working with a world-class tech team at Florida International University on the development of <span>Satenna</span>.
+
+                    </p>
+
+                    <p class="mobile-show">We believe that no matter which path the current regulation takes, <span>Satenna</span> will be a valuable technology.  </p>
                 </div>
                 <div class="col-md-6">
                     <div class="reason-rig">
-                        <img src="../assets/img/reason2.jpg" alt="reason">
+                        <img src="../assets/img/reason2.jpg" alt="reason" class="desktop-show ">
                     </div>
                 </div>
             </div>
@@ -125,7 +133,10 @@ include('../header.php'); ?>
         <div class="row">
             <div class="col-md-12">
                 <div class="work-indeed">
-                    <p>It is exciting work indeed.</p>
+                    <p class="desktop-show">It is exciting work indeed.</p>
+
+                    <p class="mobile-show">It is exciting work <br> indeed.</p>
+
 
                     <a href="#">Learn More</a>
                 </div>

@@ -206,19 +206,11 @@
   }
 }
 
-.mobile-head {
-  display: none;
+.desktop-show {
+  display: block;
 }
 
-.mobile-upcoming {
-  display: none;
-}
-
-.hide-d {
-  display: none;
-}
-
-.reason-m-rig {
+.mobile-show {
   display: none;
 }
 
@@ -276,15 +268,25 @@
 }
 
 @media (max-width: 768px) {
+  .desktop-show {
+    display: none;
+  }
+
+  .mobile-show {
+    display: block;
+    width: 100%;
+  }
+
+  .res-img {
+    img {
+      border-radius: 20px;
+      height: 100%;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
   .hero-section {
-    .desktop-head {
-      display: none;
-    }
-
-    .mobile-head {
-      display: block;
-    }
-
     .heading h1 {
       font-size: 30px;
       margin: 40px 0;
@@ -299,26 +301,18 @@
   .upcoming-vote {
     padding: 40px 0;
 
-    .upcoming-head {
-      display: none;
-    }
-
-    .mobile-upcoming {
-      display: block;
-
-      h2 {
+    h2 {
+      font-size: 26px;
+      font-family: Inter;
+      color: #000;
+      span {
         font-size: 26px;
-        font-family: Inter;
-        color: #000;
-        span {
-          font-size: 26px;
-          font-weight: 600;
-        }
+        font-weight: 600;
       }
-      img {
-        width: 100%;
-        margin: 10px 0;
-      }
+    }
+    img {
+      width: 100%;
+      margin: 10px 0;
     }
 
     p {
@@ -336,23 +330,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 350px;
+    min-height: 295px;
   }
 
   .parallax-content h4 {
     font-size: 28px;
     padding: 0 20px;
   }
-  .hide-m {
-    display: none !important;
-  }
-
-  .hide-d {
-    display: block !important;
-  }
 
   .fcc-proposal {
-    padding: 45px 0;
+    padding: 25px 0 40px 0;
 
     h3 {
       font-size: 30px;
@@ -388,16 +375,6 @@
       display: none;
     }
 
-    .reason-m-rig {
-      display: block;
-
-      img {
-        width: 100%;
-        border-radius: 20px;
-        margin: 0 0 10px 0;
-      }
-    }
-
     .work-indeed {
       margin: 25px 0 0;
       p {
@@ -411,9 +388,6 @@
 
     .satenna {
       margin: 25px 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
 }
