@@ -207,6 +207,10 @@
   display: none;
 }
 
+.mobile-upcoming {
+  display: none;
+}
+
 // Responsive
 @media (max-width: 1536px) {
   .upcoming-vote {
@@ -267,7 +271,7 @@
     }
 
     .mobile-head {
-      display: block !important;
+      display: block;
     }
 
     .heading h1 {
@@ -280,6 +284,7 @@
     }
   }
 
+  // 2nd
   .upcoming-vote {
     padding: 40px 0;
 
@@ -287,9 +292,29 @@
       display: none;
     }
 
+    .mobile-upcoming {
+      display: block;
+
+      h2 {
+        font-size: 26px;
+        font-family: Inter;
+        color: #000;
+        span {
+          font-size: 26px;
+          font-weight: 600;
+        }
+      }
+      img {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+
     p {
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 15px;
+      color: #000;
+      line-height: 130%;
     }
 
     .global-market {

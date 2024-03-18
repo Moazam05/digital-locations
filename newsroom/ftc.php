@@ -36,6 +36,12 @@ include('../header.php'); ?>
                 <h2 class="upcoming-head">
                     With an upcoming vote, the FCC will begin to lay the groundwork for <span>needed rules and regulations</span> for the growing satellite Internet business.
                 </h2>
+                <div class="mobile-upcoming">
+                    <h2> With an upcoming <br> vote, the FCC will begin <br> to lay the groundwork <br> for <span>needed rules and regulations</span> for the <br>growing satellite Internet business.</h2>
+
+                    <img src="../assets/img/global_market_mobile.png" alt="global">
+
+                </div>
 
                 <p class="first-fcc">The FCC wants to establish clear and transparent processes to support supplemental Internet coverage from space. </p>
 
@@ -45,8 +51,10 @@ include('../header.php'); ?>
                     Broadband Internet is a basic necessity in today’s modern world. This basic necessity is an <span>$875 billion</span> dollar global market.</p>
             </div>
             <div class="col-md-6">
-                <div class="global-market">
-                    <img src="../assets/img/global_market.png" alt="global">
+                <div class="upcoming-head">
+                    <div class="global-market">
+                        <img src="../assets/img/global_market.png" alt="global">
+                    </div>
                 </div>
             </div>
         </div>
