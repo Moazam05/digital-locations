@@ -4,8 +4,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 105vh;
-  margin: 0 0 40px 0;
 
   .heading {
     display: flex;
@@ -13,13 +11,14 @@
     align-items: center;
     h1 {
       font-size: 55px;
-      font-weight: normal;
-      margin: 75px 0 50px 0;
+      font-weight: 400;
+      margin: 88px 0 60px 0;
       text-align: center;
       font-family: Inter;
 
       span {
         color: #ff6629;
+        font-weight: 600;
       }
     }
   }
@@ -28,10 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0 0;
-    img {
-      height: 360px;
-    }
+    padding-bottom: 105px;
   }
 }
 
@@ -49,7 +45,7 @@
     margin-bottom: 10px;
 
     span {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 30px;
     }
   }
@@ -66,7 +62,7 @@
     margin-top: 35px;
 
     span {
-      font-weight: 700;
+      font-weight: 600;
     }
   }
 
@@ -125,7 +121,7 @@
     line-height: 120%;
 
     span {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 31px;
     }
   }
@@ -142,7 +138,7 @@
     margin-top: 30px;
 
     span {
-      font-weight: 700;
+      font-weight: 600;
     }
   }
 
