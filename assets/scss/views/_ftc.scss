@@ -37,29 +37,25 @@
   padding: 100px 0;
 
   h2 {
-    font-size: 31px;
+    font-size: 35px;
     font-family: Inter;
-    font-weight: normal;
+    font-weight: 400;
     color: #000;
     line-height: 120%;
     margin-bottom: 10px;
 
     span {
       font-weight: 600;
-      font-size: 30px;
+      font-size: 35px;
     }
-  }
-
-  .first-fcc {
-    margin-top: 45px !important;
   }
 
   p {
     font-family: Inter;
-    font-weight: normal;
     color: #000;
-    font-size: 19px;
-    margin-top: 35px;
+    font-size: 22px;
+    margin-top: 50px;
+    line-height: 40px;
 
     span {
       font-weight: 600;
@@ -67,12 +63,7 @@
   }
 
   .global-market {
-    padding: 0 30px;
-    height: 535px;
-
-    img {
-      height: 100%;
-    }
+    padding: 0 0 0 75px;
   }
 }
 
@@ -99,7 +90,7 @@
 .parallax-content h4 {
   font-size: 36px;
   font-family: Inter;
-  font-weight: normal;
+  font-weight: 400;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -116,7 +107,7 @@
   h3 {
     font-size: 31px;
     font-family: Inter;
-    font-weight: normal;
+    font-weight: 400;
     color: #000;
     line-height: 120%;
 
@@ -132,9 +123,9 @@
 
   p {
     font-family: Inter;
-    font-weight: normal;
+    font-weight: 400;
     color: #000;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 30px;
 
     span {
@@ -172,13 +163,13 @@
     h3 {
       font-size: 36px;
       font-family: Inter;
-      font-weight: normal;
+      font-weight: 400;
       color: #000;
       margin-bottom: 20px;
     }
     p {
       font-family: Inter;
-      font-weight: normal;
+      font-weight: 400;
       color: #000;
       font-size: 22px;
       margin-top: 20px;
@@ -205,7 +196,7 @@
 
     p {
       font-family: Inter;
-      font-weight: normal;
+      font-weight: 400;
       color: #000;
       font-size: 25px;
       margin-top: 0px !important;
@@ -242,7 +233,7 @@
     padding: 45px 0;
 
     h2 {
-      font-size: 30px;
+      font-size: 36px;
       margin-bottom: 20px;
     }
     p {
