@@ -218,6 +218,10 @@
   display: none;
 }
 
+.reason-m-rig {
+  display: none;
+}
+
 // Responsive
 @media (max-width: 1536px) {
   .upcoming-vote {
@@ -364,7 +368,7 @@
     }
 
     .dead-zones {
-      padding: 20px;
+      padding: 15px;
       border-radius: 20px;
       margin: 0;
       h3 {
@@ -381,6 +385,17 @@
     .reason-rig {
       padding-left: 0;
       margin: 20px 0 10px 0;
+      display: none;
+    }
+
+    .reason-m-rig {
+      display: block;
+
+      img {
+        width: 100%;
+        border-radius: 20px;
+        margin: 0 0 10px 0;
+      }
     }
 
     .work-indeed {

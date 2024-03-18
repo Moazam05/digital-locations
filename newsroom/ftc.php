@@ -104,6 +104,11 @@ include('../header.php'); ?>
         <div class="dead-zones">
             <div class="row">
                 <div class="col-md-6">
+                    <div class="reason-m-rig">
+
+                        <img src="../assets/img/reason2.jpg" alt="reason">
+                    </div>
+
 
                     <h3>
                         Imagine a <span>world of no dead zones</span> and always on high speed Internet. 
