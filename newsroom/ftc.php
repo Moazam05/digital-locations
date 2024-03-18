@@ -71,9 +71,9 @@ include('../header.php'); ?>
                     <span>The FCC proposal</span> is intended to ensure continued U.S. leadership and establish a clear and predictable regulatory approach to support innovation and competition.
                 </h3>
 
-                <p>This is exciting news for DigitalLocations as it shows the viability for a direct to device solution. We are working with a world-class tech team at Florida International University on the development of Satenna.</p>
+                <p class="excite-new">This is exciting news for <span>DigitalLocations</span> as it shows the viability for a direct to device solution. We are working with a world-class tech team at Florida International University on the development of <span>Satenna</span>.</p>
 
-                <p>We believe that no matter which path the current regulation takes, Satenna will be a valuable technology.  </p>
+                <p>We believe that no matter which path the current regulation takes, <span>Satenna</span> will be a valuable technology.  </p>
 
                 <div class="satenna">
 

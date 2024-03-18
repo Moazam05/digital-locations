@@ -72,7 +72,7 @@
 
   .global-market {
     padding: 0 30px;
-    height: 500px;
+    height: 535px;
 
     img {
       height: 100%;
@@ -118,23 +118,28 @@
   background-color: #fff;
 
   h3 {
-    font-size: 36px;
+    font-size: 31px;
     font-family: Inter;
     font-weight: normal;
     color: #000;
+    line-height: 120%;
 
     span {
       font-weight: 700;
-      font-size: 36px;
+      font-size: 31px;
     }
+  }
+
+  .excite-new {
+    margin-top: 40px !important;
   }
 
   p {
     font-family: Inter;
     font-weight: normal;
     color: #000;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 18px;
+    margin-top: 30px;
 
     span {
       font-weight: 700;
@@ -144,7 +149,7 @@
   .fcc-proposal-img {
     display: flex;
     justify-content: center;
-    height: 450px;
+    height: 475px;
 
     img {
       height: 100%;
@@ -153,6 +158,13 @@
 
   .satenna {
     margin: 20px 0 50px 0;
+    width: 100px;
+    height: 75px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .dead-zones {
