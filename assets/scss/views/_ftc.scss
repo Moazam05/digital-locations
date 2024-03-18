@@ -203,6 +203,10 @@
   }
 }
 
+.mobile-head {
+  display: none;
+}
+
 // Responsive
 @media (max-width: 1536px) {
   .upcoming-vote {
@@ -258,25 +262,31 @@
 
 @media (max-width: 768px) {
   .hero-section {
-    height: unset;
-
-    .heading h1 {
-      font-size: 35px;
-      margin: 25px 0 0 0;
+    .desktop-head {
+      display: none;
     }
 
-    .satellite-img img {
-      height: unset;
+    .mobile-head {
+      display: block !important;
+    }
+
+    .heading h1 {
+      font-size: 30px;
+      margin: 40px 0;
+    }
+
+    .satellite-img {
+      padding-bottom: 50px;
     }
   }
 
   .upcoming-vote {
-    padding: 45px 0;
+    padding: 40px 0;
 
-    h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
+    .upcoming-head {
+      display: none;
     }
+
     p {
       font-size: 20px;
       margin-top: 15px;

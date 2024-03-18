@@ -8,10 +8,15 @@ include('../header.php'); ?>
 <section class="hero-section">
     <div class="container">
         <div class="heading">
-            <h1>The Federal Communications Commission
+            <h1 class="desktop-head">The Federal Communications Commission
                 <br>
                 <span>has its eyes set</span> on space and satellite
                 <br>
+                communications.
+            </h1>
+            <h1 class="mobile-head">
+                The Federal Communications Commission
+                <span>has <br> its eyes set</span> on space and satellite
                 communications.
             </h1>
         </div>
@@ -28,9 +33,10 @@ include('../header.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2>
+                <h2 class="upcoming-head">
                     With an upcoming vote, the FCC will begin to lay the groundwork for <span>needed rules and regulations</span> for the growing satellite Internet business.
                 </h2>
+
                 <p class="first-fcc">The FCC wants to establish clear and transparent processes to support supplemental Internet coverage from space. </p>
 
                 <p>Connecting consumers to essential wireless services where traditional terrestrial mobile service is not available can be lifesaving in remote locations and can open up innovative opportunities for consumers and businesses, according to the FCC.  </p>
